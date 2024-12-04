@@ -1,0 +1,4 @@
+graphics_api=gles3
+max_fps=120
+vsync=0
+fullscreen=0
