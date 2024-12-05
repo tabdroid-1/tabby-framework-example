@@ -3,13 +3,12 @@
 #include <bx/math.h>
 #include <bx/timer.h>
 #include <bgfx/bgfx.h>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-#include <glm/gtx/quaternion.hpp>
-#include <glm/fwd.hpp>
-#include <glm/glm.hpp>
-#include <imgui.h>
-#include <ImGuizmo.h>
+// #include <glm/gtc/matrix_transform.hpp>
+// #include <glm/gtc/type_ptr.hpp>
+// #include <glm/gtx/quaternion.hpp>
+// #include <glm/fwd.hpp>
+// #include <glm/glm.hpp>
+#include "tabby/imgui/imgui.h"
 
 float fps = 0;
 using namespace Tabby;
@@ -40,6 +39,9 @@ void Base::OnUpdate()
     // TB_CORE_INFO("Middle down: {}", Input::GetMouseButtonDown(MouseCode::MIDDLE));
     // TB_CORE_INFO("Middle pressed: {}", Input::GetMouseButton(MouseCode::MIDDLE));
     // TB_CORE_INFO("Middle up: {}", Input::GetMouseButtonUp(MouseCode::MIDDLE));
+
+    bool asd = true;
+    ImGui::ShowDemoWindow(&asd);
 }
 
 void Base::OnEvent(Tabby::Event& e)
