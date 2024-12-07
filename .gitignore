@@ -1,13 +1,14 @@
 .idea/
 build/
-build-release/
-build-debug/
-build-native/
-build-macos/
-build-linux/
-build-windows/
-build-emscripten/
-build-web/
+build*/
+# build-release/
+# build-debug/
+# build-native/
+# build-macos/
+# build-linux/
+# build-windows/
+# build-emscripten/
+# build-web/
 android/app/.cxx
 android/app/build
 .cache/
